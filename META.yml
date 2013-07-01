@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/battlemidget/Mojolicious-Plugin-Disqus-Tiny
   repository: https://github.com/battlemidget/Mojolicious-Plugin-Disqus-Tiny.git
-version: 0.001
+version: 0.002
