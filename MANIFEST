@@ -1,10 +1,13 @@
+Build.PL
+Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
-Makefile.PL
 README
 cpanfile
 dist.ini
 eg/disqus.pl
 lib/Mojolicious/Plugin/Disqus/Tiny.pm
 t/basic.t
+t/release-pod-syntax.t
