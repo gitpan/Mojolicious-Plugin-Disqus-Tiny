@@ -27,14 +27,14 @@ METHODS
     Register plugin in Mojolicious application.
 
 AUTHOR
-    Adam Stokes adamjs@cpan.org
+    Adam Stokes <adamjs@cpan.org>
 
 COPYRIGHT
     Copyright 2013- Adam Stokes
 
-LICENSE
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    head1 LICENSE
+
+    Licensed under the same terms as Perl.
 
 SEE ALSO
     Mojolicious::Plugin::Disqus, Mojolicious, Mojolicious::Guides,
