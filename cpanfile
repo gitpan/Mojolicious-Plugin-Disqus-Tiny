@@ -1,7 +1,11 @@
-requires 'perl', '5.008005';
-requires 'Mojolicious';
+requires 'Mojo::Base';
 
-on test => sub {
-    requires 'Test::More', '0.88';
+on build => sub {
+    requires 'Mojolicious::Lite';
     requires 'Test::Mojo';
+    requires 'Test::More';
+};
+
+on develop => sub {
+    requires 'Test::Pod', '1.41';
 };

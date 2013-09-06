@@ -1,10 +1,13 @@
+# ABSTRACT: Mojolicious plugin for integrating Disqus forum
+
 package Mojolicious::Plugin::Disqus::Tiny;
 
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '1.001';
+our $VERSION = '1.003';
 
 has 'template' => 'disqus_template';
+
 sub register {
     my ($plugin, $app) = (shift, shift);
     push @{$app->renderer->classes}, __PACKAGE__;
@@ -77,15 +80,16 @@ Register plugin in L<Mojolicious> application.
 
 =head1 AUTHOR
 
-Adam Stokes E<lt>adamjs@cpan.orgE<gt>
+Adam Stokes L<adamjs@cpan.org>
 
 =head1 COPYRIGHT
 
 Copyright 2013- Adam Stokes
 
-head1 LICENSE
+=head1 LICENSE
 
-Licensed under the same terms as Perl.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =head1 SEE ALSO
 

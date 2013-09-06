@@ -1,10 +1,11 @@
 ---
-abstract: 'Mojolicious Plugin'
+abstract: 'Mojolicious plugin for integrating Disqus forum'
 author:
-  - 'Adam Stokes <adamjs@cpan.org>'
+  - 'Adam Stokes L<adamjs@cpan.org>'
 build_requires:
+  Mojolicious::Lite: 0
   Test::Mojo: 0
-  Test::More: 0.88
+  Test::More: 0
 configure_requires:
   Module::Build::Tiny: 0.026
 dynamic_config: 0
@@ -23,12 +24,11 @@ no_index:
     - eg
     - examples
 requires:
-  Mojolicious: 0
-  perl: 5.008005
+  Mojo::Base: 0
 resources:
   bugtracker: https://github.com/battlemidget/Mojolicious-Plugin-Disqus-Tiny/issues
   homepage: https://github.com/battlemidget/Mojolicious-Plugin-Disqus-Tiny
   repository: https://github.com/battlemidget/Mojolicious-Plugin-Disqus-Tiny.git
-version: 1.001
+version: 1.003
 x_contributors:
   - 'Adam Stokes <adam.stokes@ubuntu.com>'
